@@ -18,24 +18,7 @@ let persone = {
     age: 25,
     isMarried: false
 }*/
-const a = 'aabbcccdde';
-var arr = a.split('');
-var result = {};
-for (var i = 0; i < arr.length; ++i)
-{
-    var b = arr[i];
-    if (result[b] != undefined)
-        ++result[b];
-    else
-        result[b] = 1;
-}
-var outstr = "";
-for (var key in result)
-{
-outstr +=  key + '' + result[key];
 
-}
-console.log(outstr);
     //document.write( key + '' + result[key]);
     //console.log( key + '' + result[key]);
     //console.log(result);
